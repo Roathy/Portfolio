@@ -1,5 +1,5 @@
 html {
-  width: 375px
+  width: 375px;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 #time {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: bold;
   font-weight: 500;
   font-size: 14px;
@@ -51,7 +51,7 @@ body {
 }
 
 #toolbar {
-  background: #3C3A39;
+  background: #3c3a39;
   width: 100%;
   height: 50%;
   display: flex;
@@ -59,7 +59,6 @@ body {
 }
 
 #logo-container {
-  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -67,12 +66,12 @@ body {
   width: 94px;
   height: 44px;
   left: 12px;
-  top: calc(50% - 44px/2);
+  top: calc(50% - 44px / 2);
   color: white;
 }
 
 #logo {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -80,7 +79,6 @@ body {
 }
 
 #menu-container {
-  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -88,7 +86,7 @@ body {
   width: 40px;
   height: 40px;
   right: 24px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
   border-radius: 8px;
 }
 
@@ -104,43 +102,48 @@ body {
   gap: 12px;
   width: 375px;
   height: 100%;
-  background: #1C1A19;
+  background: #1c1a19;
 }
 
 #main-title {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
+
   /* or 114% */
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 #support-text {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
+
   /* or 133% */
   display: flex;
   align-items: center;
+
   /* Theme 3 / Primary 4 */
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 #description {
   /* Theme 1 / Body Reguler 2 */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+
   /* or 150% */
+
   /* Theme 3 / Neutral 11 */
-  color: #FFFFFF;
+  color: #fff;
 }
 
 #social-media {
@@ -149,13 +152,13 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 0px;
+  padding: 0;
   width: 200px;
-  height: 40px;
 }
 
 .icons {
-  color: #DBD8D7;
+  color: #dbd8d7;
+
   /* Icons/Icon -GitHub */
   width: 24px;
   height: 24px;
@@ -165,18 +168,8 @@ body {
   position: absolute;
   width: 406.89px;
   height: 312.03px;
-  left: 620.1px;
-  top: 317px;
+  left: 111px;
+  top: 360px;
   color: white;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-
-#main-img {
-  position: absolute;
-left: 96.37%;
-right: -96.24%;
-top: 0%;
-bottom: 0.1%;
-
-transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0) rotate(180);
 }
