@@ -1,4 +1,4 @@
-html, body {
+html{
   width: 375px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -6,6 +6,8 @@ html, body {
 
 body {
   position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #container {
