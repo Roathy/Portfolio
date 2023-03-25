@@ -1,9 +1,13 @@
 html {
   width: 375px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
   position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #container {
