@@ -66,9 +66,9 @@ The Portfolio project can be deployed using any web hosting service.
 
 ## Authors
 The Portfolio project was created by Julio Eduardo Vergara Martínez.
-Github: https://github.com/Roathy
-Twitter: @Roathy02
-LinedIn: www.linkedin.com/in/julio-vergara-roathy
+### Github: https://github.com/Roathy
+### Twitter: @Roathy02
+### LinedIn: www.linkedin.com/in/julio-vergara-roathy
 ## Future Features
 The following features may be added to The Portfolio project in the future:
 ### Desktop version
