@@ -1,3 +1,24 @@
+# 📗[Table of Contents](#portfolio)
+# 📖 [About the Project](#about-the-project)
+# 🛠 [Built With](#built-with)
+## Tech Stack
+## Key Features
+# 🚀 [Live Demo](#live-demo)
+# 💻 [Getting Started](#getting-started)
+## Setup
+## Issue page
+## Prerequisites
+# [Install](#install)
+# [Usage](#usage)
+# [Run tests](#run-tests)
+# [Deployment](#deployment)
+# 👥 [Authors](#authors)
+# 🔭 [Future Features](#future-features)
+# 🤝 [Contributing](#contributing)
+# ⭐️ [Show your support](#show-your-support)
+# 🙏 [Acknowledgements](#acknowledgements)
+# 📝 [License](#license)
+
 # Portfolio
 Welcome to the README.md file for "Portfolio".
 
@@ -28,6 +49,9 @@ git clone https://github.com/Roathy/Portfolio.git
 Prerequisites
 You will need a web browser to view the website.
 
+### Issue Page
+https://github.com/Roathy/Portfolio/issues
+
 ## Install
 No installation is required.
 
@@ -42,7 +66,9 @@ The Portfolio project can be deployed using any web hosting service.
 
 ## Authors
 The Portfolio project was created by Julio Eduardo Vergara Martínez.
-
+### Github: https://github.com/Roathy
+### Twitter: @Roathy02
+### LinedIn: www.linkedin.com/in/julio-vergara-roathy
 ## Future Features
 The following features may be added to The Portfolio project in the future:
 ### Desktop version
@@ -58,4 +84,4 @@ If you like The Portfolio project, please give it a star on GitHub.
 The Portfolio project was inspired by the Microverse program.
 
 ## License
-The Portfolio project is released under the ISC license
+The Portfolio project is released under the [ISC license](https://www.isc.org/licenses/)
