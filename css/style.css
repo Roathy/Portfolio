@@ -42,8 +42,13 @@ body {
 
 .row-container {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  width: 100%;
+  padding: 0;
+  gap: 12px;
+  width: 247px;
+  height: 40px;
 }
 
 .text-box {
@@ -79,7 +84,6 @@ body {
   gap: 10px;
   width: 360px;
   height: 48px;
-  /* Theme 3 / Primary 1 */
   background: #ff6b00;
   margin-top: 185px;
   margin-right: 5.4%;
@@ -130,7 +134,7 @@ body {
 }
 
 .skills-box ul li {
-  padding: 0px;
+  padding: 1px;
 }
 
 #appbar-container {
@@ -343,14 +347,6 @@ body {
   color: white;
 }
 
-#multi-post h2 {
-  color: #1c1a19;
-}
-
-#multi-post p {
-  color: #1c1a19;
-}
-
 #work1,
 #work2,
 #work3,
@@ -362,16 +358,6 @@ body {
   margin-left: 2%;
   margin-right: 2%;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/img-placeholder.svg);
-}
-
-.row-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 12px;
-  width: 247px;
-  height: 40px;
 }
 
 .row-container .text-box {
@@ -390,6 +376,14 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #fff;
+}
+
+#multi-post h2 {
+  color: #1c1a19;
+}
+
+#multi-post p {
+  color: #1c1a19;
 }
 
 #about-me {
