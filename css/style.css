@@ -24,28 +24,26 @@ body {
   gap: 60px;
 }
 
-.grid-container {
+.grid-container ul {
   /* Auto layout */
   display: grid;
   width: 100%;
-  min-height: 100vh;
   flex-direction: column;
   align-items: center;
-  padding: 60px 45px;
-  gap: 80px;
+  padding: 30px 15px 60px;
+  gap: 15px;
+}
+
+.grid-container ul li {
+  display: flex;
+  align-items: center;
+  padding-left: 45px;
 }
 
 .row-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
-}
-
-.skills-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .text-box {
@@ -108,6 +106,31 @@ body {
   width: 330px;
   height: 1px;
   background-color: black;
+}
+
+.skills-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-box .box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.skills-box ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-box ul li {
+  padding: 0px;
 }
 
 #appbar-container {
@@ -414,6 +437,7 @@ body {
 
 #about-me .line {
   background-color: white;
+  margin-left: 21px;
 }
 
 #skills {
@@ -452,18 +476,4 @@ body {
   height: 18px;
   margin-right: 12px;
   color: #ff6b00;
-}
-
-.skills-box .box-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.skills-box ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
