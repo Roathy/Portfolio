@@ -76,13 +76,15 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 12px;
   gap: 10px;
-  width: 100%;
+  width: 360px;
   height: 48px;
-
   /* Theme 3 / Primary 1 */
   background: #ff6b00;
+  margin-top: 185px;
+  margin-right: 5.4%;
 }
 
 .btn-text {
@@ -103,7 +105,7 @@ body {
 }
 
 .line {
-  width: 87%;
+  width: 330px;
   height: 1px;
   background-color: black;
 }
@@ -272,8 +274,9 @@ body {
   color: black;
 }
 
-#section-title {
+.section-title {
   width: 375px;
+  margin-left: 48px;
 }
 
 #recent-works-title {
@@ -287,7 +290,7 @@ body {
   color: #1c1a19;
 }
 
-#post-stories {
+.post-stories {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -297,7 +300,7 @@ body {
   height: 40px;
 }
 
-#post-stories h1 {
+.post-stories h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -305,24 +308,40 @@ body {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091e42;
+  color: white;
 }
 
-#post-stories p {
+.post-stories p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091e42;
+  color: white;
 }
 
-#work1 {
+#multi-post h2 {
+  color: #1c1a19;
+}
+
+#multi-post p {
+  color: #1c1a19;
+}
+
+#work1,
+#work2,
+#work3,
+#work4,
+#work5,
+#work6 {
+  width: 96%;
   height: 450px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/work-background.png);
+  margin-left: 2%;
+  margin-right: 2%;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/img-placeholder.svg);
 }
 
-#work1 .row-container {
+.row-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -332,7 +351,7 @@ body {
   height: 40px;
 }
 
-#work1 .row-container .text-box {
+.row-container .text-box {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -341,7 +360,7 @@ body {
   background: rgba(255, 255, 255, 0.24);
 }
 
-#work1 .row-container .text-box p {
+.row-container .text-box p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
